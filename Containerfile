@@ -1,4 +1,4 @@
-ARG EE_BASE_IMAGE=ghcr.io/ryanmerolle/python-runner:stable-2.13
+ARG EE_BASE_IMAGE=ghcr.io/ryanmerolle/ansible-runner:stable-2.13
 ARG EE_BUILDER_IMAGE=ghcr.io/ryanmerolle/ansible-builder:latest
 
 FROM $EE_BASE_IMAGE as galaxy
